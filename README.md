@@ -29,8 +29,9 @@ Essa é a parte mais importante para memorizar.
 
 Java possui quatro formas principais:
 
-Tipo	Sintaxe	Exemplo
-Método estático	ClassName::staticMethod	Integer::parseInt
-Método de instância de objeto específico	object::instanceMethod	System.out::println
-Método de instância de objeto arbitrário	ClassName::instanceMethod	String::toUpperCase
-Construtor	ClassName::new	Person::new
+| Tipo      | Sintaxe	 | Exemplo	 | 
+|-----------|------------|-----------|
+| `Método estático` |ClassName::staticMethod| Integer::parseInt|
+| `Método de instância de objeto específico`|object::instanceMethod|System.out::println|
+| `Método de instância de objeto arbitrário`|ClassName::instanceMethod|String::toUpperCase|
+| `Construtor`|ClassName::new|Person::new|
