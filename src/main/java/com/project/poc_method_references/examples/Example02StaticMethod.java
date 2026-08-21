@@ -1,4 +1,5 @@
-package com.project.java8.methodreference.examples;
+package com.project.poc_method_references.examples;
+
 
 import java.util.function.Function;
 
