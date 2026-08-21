@@ -7,7 +7,7 @@ public class Example02StaticMethod {
 
     public static void main(String[] args) {
 
-        // Lambda
+        
         Function<String, Integer> lambda =
                 value -> Integer.parseInt(value);
 
