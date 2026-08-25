@@ -70,6 +70,13 @@ Saida:
 
 ### Example 3
 
+#### Example03BoundInstanceMethod
+
+Nesse exemplo a refêrencia ao método está ligada a uma instância específica.
+É criada uma função que obtém o nome da pessoa. 
+É usado a interface funcional Supplier a qual não recebe argumento e produz um valor. 
+Representa uma instrução;
+
 ````terminaloutput
 Lambda: Joao
 Method Reference: Joao
