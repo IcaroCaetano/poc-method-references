@@ -39,12 +39,12 @@ Java possui quatro formas principais:
 
 ### Example 1
 
-Example01LambdaToMethodReference
+#### Example01LambdaToMethodReference
+
 Nesse exemplo é estabelecida uma forma bem simples de comparação entre lambda e method 
 reference.
 
-No exemplo foi usado a interface funcional Consumer, o qual recebe apenas uma entrada e
-nao retorna nada.
+No exemplo foi usado a interface funcional Consumer, o qual recebe apenas uma entrada e no retorna nada.
 
 Saida:
 
@@ -54,6 +54,12 @@ Hello Method Reference
 ````
 
 ### Example 2
+
+#### Example02StaticMethod
+
+No exemplo dois é realizada uma referência para método estático usando lambda e method reference.
+Nesse  outro exemplo foi usado outra interface funcional a Function, a qual representa uma função. 
+Ela recebe um argumento e produz um resultado.
 
 Saida:
 
