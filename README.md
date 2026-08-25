@@ -82,6 +82,27 @@ Lambda: Joao
 Method Reference: Joao
 ````
 
+#### Comparação entre um exemplo 2 e o exemplo 3
+
+````terminaloutput
+
+┌────────────────────────────────────┐
+│ Static Method                      │
+│                                    │
+│ Integer::parseInt                  │
+│       │                            │
+│       └── classe                   │
+└────────────────────────────────────┘
+
+┌────────────────────────────────────┐
+│ Bound Instance Method              │
+│                                    │
+│ person::getName                    │
+│    │                               │
+│    └── objeto específico           │
+└────────────────────────────────────┘
+````
+
 
 References:
 
