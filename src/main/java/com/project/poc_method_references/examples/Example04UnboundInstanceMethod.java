@@ -9,7 +9,7 @@ public class Example04UnboundInstanceMethod {
 
     public static void main(String[] args) {
 
-        Person person = new Person("João", 30);
+        Person person = new Person("Joao", 30);
 
         // Lambda
         Function<Person, String> lambda = value -> value.getName();

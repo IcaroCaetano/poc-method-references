@@ -103,6 +103,14 @@ Method Reference: Joao
 └────────────────────────────────────┘
 ````
 
+### Example 4
+
+````terminaloutput
+Lambda: Joao
+Method Reference: Joao
+````
+
+#### 
 
 References:
 
