@@ -12,7 +12,6 @@ public class Example02StaticMethod {
 
         System.out.println(lambda.apply("100"));
 
-        
         Function<String, Integer> methodReference = Integer::parseInt;
 
         System.out.println(methodReference.apply("200"));

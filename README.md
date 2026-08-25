@@ -39,6 +39,13 @@ Java possui quatro formas principais:
 
 ### Example 1
 
+Example01LambdaToMethodReference
+Nesse exemplo é estabelecida uma forma bem simples de comparação entre lambda e method 
+reference.
+
+No exemplo foi usado a interface funcional Consumer, o qual recebe apenas uma entrada e
+nao retorna nada.
+
 Saida:
 
 ````terminaloutput
@@ -54,3 +61,17 @@ Saida:
 100
 200
 ````
+
+### Example 3
+
+````terminaloutput
+Lambda: Joao
+Method Reference: Joao
+````
+
+
+References:
+
+- https://www.baeldung.com/java-method-references
+
+- https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
