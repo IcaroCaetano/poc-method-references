@@ -35,3 +35,22 @@ Java possui quatro formas principais:
 | `Método de instância de objeto específico`|object::instanceMethod|System.out::println|
 | `Método de instância de objeto arbitrário`|ClassName::instanceMethod|String::toUpperCase|
 | `Construtor`|ClassName::new|Person::new|
+
+
+### Example 1
+
+Saida:
+
+````terminaloutput
+Hello Lambda
+Hello Method Reference
+````
+
+### Example 2
+
+Saida:
+
+````terminaloutput
+100
+200
+````
