@@ -107,6 +107,9 @@ Method Reference: Joao
 
 #### Example04UnboundInstanceMethod
 
+Nesse exemplo a referência não sabe qual objeto utilizar, o objeto só será fornecido quando 
+for chamado. 
+
 ````terminaloutput
 Lambda: Joao
 Method Reference: Joao
@@ -128,7 +131,7 @@ Essa tabela vale a pena guardar:
 Supplier<String> ref = person::getName;
 ````
 
-não precis fornecer Person, pois person já esta associado a referencia que nesse exmeplo é o String.
+Não precisa fornecer Person, pois person já está associado a referência que nesse exemplo é o String.
 
 - b) Unbound:
 
