@@ -105,14 +105,32 @@ Method Reference: Joao
 
 ### Example 4
 
+#### Example04UnboundInstanceMethod
+
 ````terminaloutput
 Lambda: Joao
 Method Reference: Joao
 ````
 
-#### 
+### Bound vs Unbound
 
-References:
+Essa tabela vale a pena guardar:
+
+|Tipo|	Sintaxe|	Objeto|
+|----|---------|------------|
+|Bound|	person::getName	|Já definido|
+|Unbound	|Person::getName|	Fornecido depois|
+
+
+Bound:
+
+````java
+Supplier<String> ref = person::getName;
+````
+
+person já esta associado a referencia que nesse exmeplo é o String.
+
+### References:
 
 - https://www.baeldung.com/java-method-references
 

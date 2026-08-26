@@ -4,6 +4,7 @@ package com.project.poc_method_references.examples;
 import com.project.poc_method_references.model.Person;
 
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class Example04UnboundInstanceMethod {
 
