@@ -141,6 +141,19 @@ Function<Person, String> ref = Person::getName;
 Precisa fornecer Person, Porque a referência ainda não está associada a nenhuma instância.
 
 
+### Exemplo 5
+
+#### Example05Constructor
+
+Chamado de construtor reference. O methodo de referência é contrutor.
+
+Saída:
+
+````plantuml
+Lambda: Person{name='Joao', age=30}
+Constructor Reference: Person{name='Maria', age=25}
+````
+
 ### References:
 
 - https://www.baeldung.com/java-method-references
