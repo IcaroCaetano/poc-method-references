@@ -122,13 +122,21 @@ Essa tabela vale a pena guardar:
 |Unbound	|Person::getName|	Fornecido depois|
 
 
-Bound:
+- a) Bound:
 
 ````java
 Supplier<String> ref = person::getName;
 ````
 
-person já esta associado a referencia que nesse exmeplo é o String.
+não precis fornecer Person, pois person já esta associado a referencia que nesse exmeplo é o String.
+
+- b) Unbound:
+
+`````java
+Function<Person, String> ref = Person::getName;
+`````
+Precisa fornecer Person, Porque a referência ainda não está associada a nenhuma instância.
+
 
 ### References:
 
