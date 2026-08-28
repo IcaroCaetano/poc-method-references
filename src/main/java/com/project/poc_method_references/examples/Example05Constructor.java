@@ -9,7 +9,6 @@ public class Example05Constructor {
 
     public static void main(String[] args) {
 
-        // Com Lambda
         BiFunction<String, Integer, Person> lambda =
                 (name, age) -> new Person(name, age);
 
@@ -17,7 +16,6 @@ public class Example05Constructor {
 
         System.out.println("Lambda: " + person1);
 
-        // Constructor Reference
         BiFunction<String, Integer, Person> constructorReference = Person::new;
 
         Person person2 = constructorReference.apply("Maria", 25);
