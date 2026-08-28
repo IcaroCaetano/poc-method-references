@@ -12,12 +12,10 @@ public class Example04UnboundInstanceMethod {
 
         Person person = new Person("Joao", 30);
 
-        // Lambda
         Function<Person, String> lambda = value -> value.getName();
 
         System.out.println("Lambda: " + lambda.apply(person));
 
-        // Method Reference
         Function<Person, String> methodReference = Person::getName;
 
         System.out.println("Method Reference: " + methodReference.apply(person));
