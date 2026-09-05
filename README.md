@@ -162,4 +162,25 @@ Constructor Reference: Person{name='Maria', age=25}
 
 ### Exemplo 6
 
-####
+#### Example06Comparator
+
+
+````plantuml
+=== Original ===
+Person{name='Maria', age=34}
+Person{name='Jo�o', age=21}
+Person{name='Carlos', age=42}
+Person{name='Ana', age=27}
+
+=== Lambda ===
+Person{name='Ana', age=27}
+Person{name='Carlos', age=42}
+Person{name='Jo�o', age=21}
+Person{name='Maria', age=34}
+
+=== Method Reference ===
+Person{name='Ana', age=27}
+Person{name='Carlos', age=42}
+Person{name='Jo�o', age=21}
+Person{name='Maria', age=34}
+````
