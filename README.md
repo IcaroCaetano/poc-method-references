@@ -164,6 +164,7 @@ Constructor Reference: Person{name='Maria', age=25}
 
 #### Example06Comparator
 
+Saida:
 
 ````plantuml
 === Original ===
@@ -184,3 +185,15 @@ Person{name='Carlos', age=42}
 Person{name='Jo�o', age=21}
 Person{name='Maria', age=34}
 ````
+
+#### O ponto mais importante do exemplo
+
+A Lambda descreve:
+
+`"Receba uma Person e execute getName() nela."`
+
+O Method Reference diz:
+
+`"Use o método getName() de Person."`
+
+E o contexto determina como essa referência será utilizada.
